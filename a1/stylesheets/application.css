@@ -1,6 +1,8 @@
 @import url(../../../stylesheets/application.css);
 
-/* A1 theme version 4.0.0, Copyright (C) 2011 - 2022 Kirill Bezrukov www.redmineup.com */
+/* Native One v0.1 by Stephen Davis
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;400;600&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&display=swap');
 
 /*.buttons .icon,*/
 .contextual > a.icon {
@@ -19,8 +21,7 @@
 	text-decoration: none;
 }
 
-/* NEW */
-
+/* Main */
 #header {
 	background: #394956;
 	min-height: 5em;
@@ -49,7 +50,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	font-family: Jura, Inter, Arial, Helvetica, sans-serif;
 }
 
 html, #wrapper {
@@ -62,7 +63,7 @@ html, #wrapper {
 }
 
 body {
-	font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+	font-family: Inter, Arial, Helvetica, sans-serif;
 	font-size: 13px;
 }
 
@@ -1055,7 +1056,7 @@ span.tag-label-color:hover {
 
 span.tag-label-color a, span.tag-label-color > span {
 	font-weight: bold !important;
-	font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif !important;
+	font-family: Inter, Arial, Helvetica, sans-serif !important;
 }
 
 span.tag-label-color:hover a {
