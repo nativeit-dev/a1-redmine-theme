@@ -1,6 +1,6 @@
 @import url(../../../stylesheets/application.css);
 
-/* Native One v0.1 by Stephen Davis
+/* Native One v0.1 by Stephen Davis */
 
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200;400;600&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&display=swap');
 
@@ -23,7 +23,7 @@
 
 /* Main */
 #header {
-	background: #394956;
+	background: #263538;
 	min-height: 5em;
 	padding: 0px;
 	min-height: initial;
@@ -33,11 +33,15 @@
 	background: url(../images/logo.png) no-repeat 15px 45%;
 	color: #E0E0E0;
 	text-shadow: 0 -2px rgba(0, 0, 0, 0.2);
+	letter-spacing: 0.2rem;
 	font-size: 22px;
 	padding: 18px 10px 18px 70px;
 	margin: 0px;
 }
 
+textarea {
+    font-family: Inconsolata, monospace;
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
@@ -83,6 +87,15 @@ body {
 
 #top-menu a {
 	color: #e0e0e0;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+#projects-index ul.projects div.root a.project {
+    font-family: Jura, Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0 0 10px 0;
 }
 
 #errorExplanation, div.flash, .nodata, .warning, .conflict {
@@ -139,7 +152,7 @@ div#content > #add-message > h2 ,
 div#content > .message.details > h2 ,
 div#content > .board.details > h2 ,
 div#content > #add-document > h2 {
-	background: #EAF2F5;
+	background: #abbab85;
 	padding: 16px 20px;
 	margin: -10px -16px 16px;
 	letter-spacing: -1px;
@@ -250,7 +263,7 @@ div#welcome-store-content h4 {
 }
 
 a, a:link, a:visited {
-	color: #269;
+	color: #263538;
 }
 
 div.details, div.details.contact, div.details.deal {
@@ -762,7 +775,7 @@ table.progress td.closed {
 }
 
 table.progress td.done {
-	background: #EAF2F5 none repeat scroll 0%;
+	background: #abbab85 none repeat scroll 0%;
 }
 
 #history div.journal {
@@ -849,6 +862,7 @@ body.action-login #main.nosidebar #content {
 	border-radius: 0px;
 	padding: 5px 10px;
 	border-color: #e5e5e5;
+	font-weight: 500;
 }
 
 #content .tabs ul li a.selected {
@@ -859,7 +873,7 @@ body.action-login #main.nosidebar #content {
 #sidebar a.selected {
 	background-color: transparent;
 	color: gray;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 /* tab buttons*/
@@ -1178,7 +1192,7 @@ span.invoice-status.paid {background-color: green !important;}
 .controller-projects.action-index div#content  h2:first-of-type {
 	border-top: 1px solid white;
 	border-bottom: 1px solid #AECCD7;
-	background: #EAF2F5 url(../images/smooth-gradient-blue.jpg);
+	background: #abbab85 url(../images/smooth-gradient-blue.jpg);
 	text-shadow: 0px 1px white;
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
@@ -1370,7 +1384,7 @@ input.autocomplete {
 /* SELECT2 */
 /**********************************************************/
 
-.theme-A1 .select2-container--default .select2-selection--single {
+.theme-Native One .select2-container--default .select2-selection--single {
   background-position: 4px 50%;
   border: 1px solid #d7d7d7;
   border-radius: 0px;
@@ -1379,39 +1393,39 @@ input.autocomplete {
 }
 
 
-.theme-A1 .select2-container--default .select2-selection--multiple {
+.theme-Native One .select2-container--default .select2-selection--multiple {
   border: 1px solid #d7d7d7;
   border-radius: 0px;
   outline: none;
 }
 
-.theme-A1 .select2-container--default.select2-container--open .select2-selection,
-.theme-A1 .select2-container--default .select2-selection:focus,
-.theme-A1 .select2-container--default.select2-container--focus .select2-selection--single,
-.theme-A1 .select2-container--default.select2-container--focus .select2-selection--multiple {
+.theme-Native One .select2-container--default.select2-container--open .select2-selection,
+.theme-Native One .select2-container--default .select2-selection:focus,
+.theme-Native One .select2-container--default.select2-container--focus .select2-selection--single,
+.theme-Native One .select2-container--default.select2-container--focus .select2-selection--multiple {
 	border-color: #4f9abd;
 }
 
-.theme-A1 .select2-container--default .select2-selection--single .select2-selection__rendered {
+.theme-Native One .select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 21px;
   font-size: 11px;
   outline: none;
 }
 
-.theme-A1 .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+.theme-Native One .select2-container--default .select2-selection--multiple .select2-selection__rendered {
 	font-size: 11px;
   padding-bottom: 2px;
 }
 
-.theme-A1 .select2-container--default .select2-selection--single .select2-selection__arrow {
+.theme-Native One .select2-container--default .select2-selection--single .select2-selection__arrow {
   height: 25px;
   outline: none;
 }
 
-.theme-A1 .select2-container--default .select2-selection--single .select2-selection__arrow b {
+.theme-Native One .select2-container--default .select2-selection--single .select2-selection__arrow b {
   border-color: #afafaf transparent transparent transparent;
 }
-.theme-A1 .select2-dropdown {
+.theme-Native One .select2-dropdown {
   border: 1px solid #4f9abd;
   border-radius: 0px;
 }
@@ -1425,14 +1439,14 @@ input.autocomplete {
 /*RESPONSIVE*/
 /*******************************************/
 @media screen and (max-width: 899px) {
-	.theme-A1 #content>.contextual a, p.buttons a {
+	.theme-Native One #content>.contextual a, p.buttons a {
 		background-color: #fff;
 	}
-	.theme-A1 #header {
+	.theme-Native One #header {
 		top: 0px;
-		background-color: #394956;
+		background-color: #263538;
 	}
-	.theme-A1 #main {
+	.theme-Native One #main {
 		margin: 0px;
 	}
 
